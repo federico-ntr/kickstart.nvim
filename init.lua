@@ -157,6 +157,9 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- Set colorcolumn to have a vertical ruler
+vim.opt.colorcolumn = '80,120'
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
